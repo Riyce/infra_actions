@@ -28,7 +28,7 @@ SECRET_KEY = 'k9gwcfq01xszx2(_4e#gc3u$rt=)y6ivx=$wt+5&-^ktk4dg4e'
 HOST = os.getenv('ALLOWED_HOST')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-ALLOWED_HOSTS = [f'{HOST}', '127.0.0.1']
+ALLOWED_HOSTS = [HOST, '127.0.0.1']
 # Application definition
 
 INSTALLED_APPS = [
